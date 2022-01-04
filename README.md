@@ -4,14 +4,14 @@ PoC at playing sounds from Dart in Rust
 
 #### usage
 
-binary is just here to show that kira actually correctly play sound:
+check that kira actually correctly plays sound:
 ```sh
-cargo run
+make example
 ```
 
-but ffi build is done with this command:
+build ffi bindings:
 ```sh
-RUST_BACKTRACE=full flutter_rust_bridge_codegen --rust-input src/api.rs --dart-output src/bridge_generated.dart
+make bindings
 ```
 
 #### sounds credits
